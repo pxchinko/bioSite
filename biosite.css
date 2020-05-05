@@ -7,10 +7,9 @@ html {
 }
 
 body {
-    background-color: rgb(231,237,234);
+    background-color: rgb(white);
     margin: 0px auto;
     max-width: 100%;
-    flex: 10 | [ <'flex grow'> <'flex shrink'>? || <'flex-basis'> ];
 }
 
 #page-container {
@@ -54,69 +53,68 @@ nav a:hover {
 /*Banner*/
 
 header {
-    background: rgb(255,178,56);
     max-width: 100%;
-    padding: 5% 10%;
-    margin: 0% 10%;
-    align-content: center;
-    display: inline-block;
-    border-radius: 50px;
-    object-fit: contain;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.header-img {
+    background-image: url(Images/header.png);
+    height: 625px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1 {
     color: rgb(231,237,234);
+    float: left;
     font-family: 'Playfair Display', serif, italic;
-    font-size: 10.604em;
-    font-size: 10vw;
+    font-size: 12em;
+    font-size: 12vw;
     font-weight: 800;
-    line-height: 0.9em;
-    text-align: right;
-    display: inline-block;
-    padding: 10px;
+    line-height: 0.63em;
+    text-align: left;
+    padding: 50px 0px 0px 50px;
 }
 
 h1 > #lastName {
-    color: rgb(242,100,61);
     font-style: italic;
+    color: rgb(255,178,56);
 }
 
-.portrait {
-    float: left;
-    width: 100%;
-    height: auto;
-    display: inline-block;
-}
-
-/*Body*/
+/*Headers*/
 
 h2, h3, h4, h5 {
     font-family: 'Playfair Display', serif;
     font-size: 3.375em;
-    font-style: italic;
-    font-weight: 600;
-    letter-spacing: 2px;
+    font-weight: 800;
+    letter-spacing: 0px;
     line-height: 0.679em;
     margin: 0px auto;
-    border-radius: 5px;
 }
 
-h2, h4 {
-    background-color: rgb(73,0,126);
-    padding: 20px 10px;
-    margin-left: 100px;
-    color: rgb(242,100,61)
+h2, h5 {
+    color: rgb(255,178,56);
+    font-size: 4.827em;
 }
 
-h3, h5 {
-    background: rgb(10,3,16);
-    padding: 20px 20px;
-    color: rgb(242,100,61);
-    margin-right: 100px;
-     
+h3, h4 {
+    padding: 8px 100px;
+    color: rgb(242,100,61);  
 }
 
-p {
+h2 {
+    padding-top: 10px;
+}
+
+h5 {
+    padding: 10px 0px;
+}
+
+/*Body*/
+
+p { 
     color: rgb(10,3,16);
     font-family: 'Muli', sans-serif;
     font-size: 1em;
@@ -128,29 +126,34 @@ span.hidden {
     line-height: 0.679em;
 }
 
-.container {
-    margin: 100px 200px;
-    padding: 50px;
-    display: inline-block;
-    object-fit: contain;
-    box-shadow: 0 20px 30px rgba(0,0,0,0.15), 0 6px 6px rgba(0,0,0,0.12);
-    border-radius: 5px;
+#language.container p {
+    padding: 0px 100px
 }
 
-.container p {
-    padding: 0px 20px;
-}
-
-#about, #photography {
+#about {
     text-align: right;
-    float: right;;
-    background-color: rgb(231,237,234);
+    float: right;
+    background-color: white;
+    margin: 100px 200px;
+    height: 450px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.15), 0 6px 6px rgba(0,0,0,0.12);
+    padding: 0px 50px;
+    overflow: hidden;
 }
 
-#language, #motorcycles {
+#language {
     background-color: rgb(231,237,234);
+    height: 630px;
     text-align: left;
     float: left;
+    overflow: hidden;
+}
+
+#motorcycles {
+    background-color: white;
+    text-align: left;
+    float: left;
+    padding: 70px 0px 0px 100px;
 }
 
 /*footer*/
@@ -177,19 +180,20 @@ span.hidden {
 
 /*Images*/
 
-img {
-    max-width:350px;
-}
-
-#photography img, #about img {
+#about img {
     float: left;
-    display: inline;
-    padding-right: 15px;
+    padding: 30px 10px 0px 0px;
+    max-width:290px;
 }
 
-#motorcycles img, #language img {
+#motorcycles img {
     float: right;
-    display: inline;
-    padding-left: 15px;
+    max-width: 700px;
+}
+
+#language img {
+    float: right;
+    max-width: 600px;
+    padding-left: 100px
 }
 
