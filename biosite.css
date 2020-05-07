@@ -59,7 +59,7 @@ header {
 }
 
 .header-img {
-    background-image: url(Images/header.png);
+    background-image: url(images/header.png);
     height: 625px;
     width: 100%;
     background-size: cover;
@@ -70,7 +70,6 @@ h1 {
     color: rgb(231,237,234);
     float: left;
     font-family: 'Playfair Display', serif, italic;
-    font-size: 12em;
     font-size: 12vw;
     font-weight: 800;
     line-height: 0.63em;
@@ -87,7 +86,6 @@ h1 > #lastName {
 
 h2, h3, h4, h5 {
     font-family: 'Playfair Display', serif;
-    font-size: 3.375em;
     font-weight: 800;
     letter-spacing: 0px;
     line-height: 0.679em;
@@ -96,16 +94,21 @@ h2, h3, h4, h5 {
 
 h2, h5 {
     color: rgb(255,178,56);
-    font-size: 4.827em;
+    font-size: 5vw;
 }
 
 h3, h4 {
-    padding: 8px 100px;
-    color: rgb(242,100,61);  
+    padding: 0.8vw 8vw;
+    color: rgb(242,100,61);
+    font-size: 4vw;
 }
 
 h2 {
-    padding-top: 10px;
+    padding-top: 1vw;
+}
+
+h3 {
+    padding-top: 3.5vw;
 }
 
 h5 {
@@ -117,25 +120,26 @@ h5 {
 p { 
     color: rgb(10,3,16);
     font-family: 'Muli', sans-serif;
-    font-size: 1em;
+    font-size: 1.25vw;
     line-height: 1.3em;
 }
 
 span.hidden {
     visibility: hidden;
+    font-size: 1.25vw;
     line-height: 0.679em;
 }
 
 #language.container p {
-    padding: 0px 100px
+    padding: 0px 8vw
 }
 
 #about {
     text-align: right;
     float: right;
     background-color: white;
-    margin: 100px 200px;
-    height: 450px;
+    margin: 8vw 16vw;
+    height: 35vw;
     box-shadow: 0 20px 30px rgba(0,0,0,0.15), 0 6px 6px rgba(0,0,0,0.12);
     padding: 0px 50px;
     overflow: hidden;
@@ -143,7 +147,7 @@ span.hidden {
 
 #language {
     background-color: rgb(231,237,234);
-    height: 630px;
+    height: 51vw;
     text-align: left;
     float: left;
     overflow: hidden;
@@ -153,7 +157,7 @@ span.hidden {
     background-color: white;
     text-align: left;
     float: left;
-    padding: 70px 0px 0px 100px;
+    padding: 70px 0px 0px 8vw;
 }
 
 /*footer*/
@@ -183,17 +187,18 @@ span.hidden {
 #about img {
     float: left;
     padding: 30px 10px 0px 0px;
-    max-width:290px;
+    max-width:22vw;
 }
 
 #motorcycles img {
     float: right;
-    max-width: 700px;
+    max-width: 50vw;
+    width: auto;
 }
 
 #language img {
     float: right;
-    max-width: 600px;
-    padding-left: 100px
+    max-width: 49vw;
+    padding-left: 8vw
 }
 
