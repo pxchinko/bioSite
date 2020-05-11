@@ -38,7 +38,7 @@ nav ul {
 nav li {
     display: inline;
     margin: 0px 3px;
-    padding-right: 30px;
+    padding-right: 2vw;
 }
 
 nav a:link, a:visited {
@@ -50,11 +50,11 @@ nav a:hover {
     color: rgb(255,0,91);
 }
 
-/*Banner*/
+/*Header*/
 
 header {
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0px auto;
     height: 400px;
 }
 
@@ -70,11 +70,11 @@ h1 {
     color: rgb(231,237,234);
     float: left;
     font-family: 'Playfair Display', serif, italic;
-    font-size: 12vw;
+    font-size: 13vw;
     font-weight: 800;
-    line-height: 0.63em;
+    line-height: 0.675em;
     text-align: left;
-    padding: 50px 0px 0px 50px;
+    padding: 0vw 0px 0px 6vw;
 }
 
 h1 > #lastName {
@@ -94,7 +94,7 @@ h2, h3, h4, h5 {
 
 h2, h5 {
     color: rgb(255,178,56);
-    font-size: 5vw;
+    font-size: 6vw;
 }
 
 h3, h4 {
@@ -108,7 +108,7 @@ h2 {
 }
 
 h3 {
-    padding-top: 3.5vw;
+    padding-top: 4vw;
 }
 
 h5 {
@@ -126,7 +126,7 @@ p {
 
 span.hidden {
     visibility: hidden;
-    font-size: 1.25vw;
+    font-size: 1vw;
     line-height: 0.679em;
 }
 
@@ -141,7 +141,7 @@ span.hidden {
     margin: 8vw 16vw;
     height: 35vw;
     box-shadow: 0 20px 30px rgba(0,0,0,0.15), 0 6px 6px rgba(0,0,0,0.12);
-    padding: 0px 50px;
+    padding: 0px 5vw;
     overflow: hidden;
 }
 
@@ -157,7 +157,7 @@ span.hidden {
     background-color: white;
     text-align: left;
     float: left;
-    padding: 70px 0px 0px 8vw;
+    padding: 6vw 0px 0px 8vw;
 }
 
 /*footer*/
