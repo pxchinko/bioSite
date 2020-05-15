@@ -126,8 +126,8 @@ p {
 
 span.hidden {
     visibility: hidden;
-    font-size: 1vw;
-    line-height: 0.679em;
+    font-size: 0.5vw;
+    line-height: 0.1vw;
 }
 
 #language.container p {
@@ -147,10 +147,9 @@ span.hidden {
 
 #language {
     background-color: rgb(231,237,234);
-    height: 51vw;
+    height: 53vw;
     text-align: left;
     float: left;
-    overflow: hidden;
 }
 
 #motorcycles {
