@@ -48,6 +48,7 @@ nav a:link, a:visited {
 
 nav a:hover {
     color: rgb(255,0,91);
+    transition: ease-in 1s;
 }
 
 /*Header*/
@@ -57,15 +58,13 @@ header {
     margin: 0px auto;
     height: 400px;
 }
-
 .header-img {
     background-image: url(images/header.png);
-    height: 625px;
+    height: 100vh;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 h1 {
     color: rgb(231,237,234);
     float: left;
@@ -76,12 +75,10 @@ h1 {
     text-align: left;
     padding: 0vw 0px 0px 6vw;
 }
-
 h1 > #lastName {
     font-style: italic;
     color: rgb(255,178,56);
 }
-
 /*Headers*/
 
 h2, h3, h4, h5 {
@@ -123,17 +120,14 @@ p {
     font-size: 1.25vw;
     line-height: 1.3em;
 }
-
 span.hidden {
     visibility: hidden;
     font-size: 0.5vw;
     line-height: 0.1vw;
 }
-
 #language.container p {
     padding: 0px 8vw
 }
-
 #about {
     text-align: right;
     float: right;
@@ -144,14 +138,12 @@ span.hidden {
     padding: 0px 5vw;
     overflow: hidden;
 }
-
 #language {
     background-color: rgb(231,237,234);
     height: 53vw;
     text-align: left;
     float: left;
 }
-
 #motorcycles {
     background-color: white;
     text-align: left;
@@ -167,18 +159,16 @@ span.hidden {
     bottom: 0;
     padding: 5% 15%;
 }
-
 .myFooter p {
     color: rgb(255,178,56);
 }
-
 .myFooter a:link, a:visited {
     color: rgb(231,237,234);
     text-decoration: none;
 }
-
 .myFooter a:hover {
     color: rgb(255,0,91);
+    transition: ease-in 1s;
 }
 
 /*Images*/
