@@ -22,20 +22,22 @@ body {
 nav {
     background-image: linear-gradient(to right, rgb(242,100,61),rgb(73,0,126));
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 10;
+    display: flex-end;
 }
 nav ul {
     font-family: 'Muni', sans-serif;
-    font-size: 0.769em;
-    letter-spacing: 1px;
+    font-size: 1em;
+    letter-spacing: 3px;
     list-style: none;
     text-align: right;
     text-transform: uppercase;
 }
 nav li {
     display: inline;
-    margin: 0px 3px;
+    margin: 0px 0.5vw;
     padding-right: 2vw;
 }
 nav a:link, a:visited {
@@ -52,29 +54,34 @@ nav a:hover {
 header {
     max-width: 100%;
     margin: 0px auto;
-    height: 400px;
+    top: 1;
+    height: 90vh;
 }
-.header-img {
+.image {
     background-image: url(images/header.png);
-    height: 100vh;
-    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: ease-in 0.5s;
+    height: 100vh;
+    width: 100%;
 }
 h1 {
     color: rgb(231,237,234);
-    float: left;
     font-family: 'Playfair Display', serif, italic;
     font-size: 13vw;
     font-weight: 800;
+    float: left;
     line-height: 0.675em;
     text-align: left;
-    padding: 0vw 0px 0px 6vw;
+    padding-left: 6vw;
 }
 h1 > #lastName {
     font-style: italic;
     color: rgb(255,178,56);
+    line-height: 1em;
+}
+header > .hidden {
+    font-size: 1vw;
+    line-height: 0.1vw;
 }
 /*Headers*/
 
@@ -82,29 +89,21 @@ h2, h3, h4, h5 {
     font-family: 'Playfair Display', serif;
     font-weight: 800;
     letter-spacing: 0px;
-    line-height: 0.679em;
+    line-height: 1em;
     margin: 0px auto;
 }
-
 h2, h5 {
     color: rgb(255,178,56);
     font-size: 6vw;
 }
-
 h3, h4 {
     padding: 0.8vw 8vw;
     color: rgb(242,100,61);
     font-size: 4vw;
 }
-
-h2 {
-    padding-top: 1vw;
+h2, h3, h4 {
+    padding-top: 6vw;
 }
-
-h3 {
-    padding-top: 4vw;
-}
-
 h5 {
     padding: 10px 0px;
 }
@@ -114,22 +113,23 @@ h5 {
 p { 
     color: rgb(10,3,16);
     font-family: 'Muli', sans-serif;
-    font-size: 1.25vw;
+    font-size: 1.25em;
     line-height: 1.3em;
 }
 span.hidden {
     visibility: hidden;
-    font-size: 0.5vw;
+    font-size: 8vw;
     line-height: 0.1vw;
 }
 #language.container p {
     padding: 0px 8vw
 }
 #about {
+    align-items: center;
     text-align: right;
     float: right;
     background-color: white;
-    margin: 8vw 16vw;
+    margin: 0vw 16vw 8vw 16vw;
     height: 35vw;
     box-shadow: 0 20px 30px rgba(0,0,0,0.15), 0 6px 6px rgba(0,0,0,0.12);
     padding: 0px 5vw;
@@ -150,20 +150,20 @@ span.hidden {
 
 /*footer*/
 
-.myFooter {
+footer {
     overflow: hidden;
-    background-color: rgb(73,0,126,) ;
+    background-color: rgb(73,0,126);
     bottom: 0;
     padding: 5% 15%;
 }
-.myFooter p {
+footer p {
     color: rgb(255,178,56);
 }
-.myFooter a:link, a:visited {
+footer a:link, a:visited {
     color: rgb(231,237,234);
     text-decoration: none;
 }
-.myFooter a:hover {
+footer a:hover {
     color: rgb(255,0,91);
     transition: ease-in 0.5s;
 }
@@ -172,19 +172,16 @@ span.hidden {
 
 #about img {
     float: left;
-    padding: 30px 10px 0px 0px;
+    padding: 50px 20px 0px 0px;
     max-width:22vw;
 }
-
 #motorcycles img {
     float: right;
     max-width: 50vw;
     width: auto;
 }
-
 #language img {
     float: right;
     max-width: 49vw;
     padding-left: 8vw
 }
-
