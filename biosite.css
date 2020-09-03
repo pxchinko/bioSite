@@ -3,6 +3,7 @@
 
 html {
     font-family: 'Playfair Display', serif, 'Muli', sans-serif;
+    font-size: 16px;
 }
 
 body {
@@ -29,16 +30,16 @@ nav {
 }
 nav ul {
     font-family: 'Muni', sans-serif;
-    font-size: 1em;
-    letter-spacing: 3px;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
     list-style: none;
     text-align: right;
     text-transform: uppercase;
 }
 nav li {
     display: inline;
-    margin: 0px 0.5vw;
-    padding-right: 2vw;
+    margin: 0px 0.5em;
+    padding-right: 2em;
 }
 nav a:link, a:visited {
     color: rgb(231,237,234);
@@ -67,21 +68,19 @@ header {
 h1 {
     color: rgb(231,237,234);
     font-family: 'Playfair Display', serif, italic;
-    font-size: 13vw;
+    font-size: 11em;
     font-weight: 800;
     float: left;
-    line-height: 0.675em;
+    line-height: 0.679em;
     text-align: left;
     padding-left: 6vw;
 }
 h1 > #lastName {
     font-style: italic;
     color: rgb(255,178,56);
-    line-height: 1em;
 }
-header > .hidden {
-    font-size: 1vw;
-    line-height: 0.1vw;
+header span.hidden {
+    visibility: hidden;
 }
 /*Headers*/
 
@@ -89,57 +88,42 @@ h2, h3, h4, h5 {
     font-family: 'Playfair Display', serif;
     font-weight: 800;
     letter-spacing: 0px;
-    line-height: 1em;
+    line-height: 1.2em;
     margin: 0px auto;
 }
 h2, h5 {
     color: rgb(255,178,56);
-    font-size: 6vw;
+    font-size: 5em;
 }
 h3, h4 {
-    padding: 0.8vw 8vw;
     color: rgb(242,100,61);
-    font-size: 4vw;
+    font-size: 4em;
 }
-h2, h3, h4 {
-    padding-top: 6vw;
-}
-h5 {
-    padding: 10px 0px;
-}
+h2, h3 { padding-top: 1em; }
 
 /*Body*/
 
 p { 
     color: rgb(10,3,16);
     font-family: 'Muli', sans-serif;
-    font-size: 1.25em;
+    font-size: 1em;
     line-height: 1.3em;
 }
-span.hidden {
-    visibility: hidden;
-    font-size: 8vw;
-    line-height: 0.1vw;
-}
-#language.container p {
-    padding: 0px 8vw
+#language.container {
+    padding-left: 8vw;
+    background-color: rgb(231,237,234);
+    height: 120vh;
+    text-align: left;
+    float: left;
 }
 #about {
-    align-items: center;
     text-align: right;
-    float: right;
     background-color: white;
     margin: 0vw 20vw 8vw 20vw;
-    height: 35vw;
+    height: 40vw;
     box-shadow: 0 20px 30px rgba(0,0,0,0.15), 0 6px 6px rgba(0,0,0,0.12);
     padding: 0px 5vw;
     overflow: hidden;
-}
-#language {
-    background-color: rgb(231,237,234);
-    height: 53vw;
-    text-align: left;
-    float: left;
 }
 #motorcycles {
     background-color: white;
@@ -173,7 +157,7 @@ footer a:hover {
 #about img {
     float: left;
     padding: 50px 20px 0px 0px;
-    max-width:22vw;
+    max-width:20vw;
 }
 #motorcycles img {
     float: right;
@@ -182,6 +166,6 @@ footer a:hover {
 }
 #language img {
     float: right;
-    max-width: 49vw;
+    max-width: 45vw;
     padding-left: 8vw
 }
