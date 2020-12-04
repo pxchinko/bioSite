@@ -69,7 +69,7 @@ header {
 h1 {
     color: rgb(231,237,234);
     font-family: 'Playfair Display', serif, italic;
-    font-size: 11em;
+    font-size: 12em;
     font-weight: 800;
     float: left;
     line-height: 0.679em;
@@ -113,7 +113,7 @@ p {
 #language.container {
     padding-left: 8vw;
     background-color: rgb(231,237,234);
-    height: 120vh;
+    height: 75vh;
     text-align: left;
     float: left;
 }
@@ -121,9 +121,9 @@ p {
     text-align: right;
     background-color: white;
     margin: 0vw 20vw 8vw 20vw;
-    height: 40vw;
+    height: 35vw;
     box-shadow: 0 20px 30px rgba(0,0,0,0.15), 0 6px 6px rgba(0,0,0,0.12);
-    padding: 0px 5vw;
+    padding: 0px 50px;
     overflow: hidden;
 }
 #motorcycles {
